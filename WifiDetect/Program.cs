@@ -8,9 +8,9 @@ namespace XfinityDistanceTracker
 {
     class Program
     {
-        const string ROUTER_USER = "admin";       // or "cusadmin"
-        const string ROUTER_PASS = "Jamesbond007";  // your real password
-        const string XFINITY_URL = "http://10.0.0.1/connected_devices_computers.jst";
+        const string ROUTER_USER = "<username>";       // or "cusadmin"
+        const string ROUTER_PASS = "<password>";  // your real password
+        const string XFINITY_URL = "<xfinity_connected_devices_url>";
 
         const string TARGET_HOSTNAME = "iPhone";  // the device you want to track
 
